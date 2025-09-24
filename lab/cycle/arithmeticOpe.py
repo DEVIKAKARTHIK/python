@@ -11,18 +11,18 @@ print("7:exponent")
 
 choice = int(input("enter a choice 1-7"))
 if choice == 1:
-    print("addition =",n1+n1)
+    print("addition =",n1+n2)
 elif choice == 2:
-    print("substraction =",n1-n1)
+    print("substraction =",n1-n2)
 elif choice == 3:
-    print("multiplication =",n1*n1)
+    print("multiplication =",n1*n2)
 elif choice == 4:
-    print("division =",n1/n1)
+    print("division =",n1/n2)
 elif choice == 5:
-    print("floor division =",n1//n1)
+    print("floor division =",n1//n2)
 elif choice == 6:
-    print("modulus =",n1%n1)
+    print("modulus =",n1%n2)
 elif choice == 7:
-    print("exponent =",n1**n1)
+    print("exponent =",n1**n2)
 else:
     print("invalid choice")
